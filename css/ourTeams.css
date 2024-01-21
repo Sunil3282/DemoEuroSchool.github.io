@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Public Sans", sans-serif;
+}
+:root{
+    --primaryColor:#075e89;
+    --LightColor: #fff;
+    --SecondaryColor: #f99a00;
+    --DarkColor: #585858;
+}
+.primary-color{
+    background-color: var(--primaryColor)
+}
+
+/* navbarcss */
+.nav-item{
+    font-size: medium;
+    color: var(--DarkColor);
+}
+/* .img-wrapper{
+  max-width: 100%;
+  height: 65vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+} */
+
+@media (min-width: 768px) {
+  .carousel-inner {
+    display: flex;
+  }
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+    display: block;
+  }
+}
+.carousel-inner{
+    padding: 1em;
+}
+.card{
+  margin: 0 0.5em;
+}
